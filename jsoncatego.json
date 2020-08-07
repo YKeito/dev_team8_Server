@@ -1,0 +1,56 @@
+{'ResultSet': 
+	{   'apiVersion': '1.27.0.0', 'engineVersion': '202008_02a', 
+		'Course': [	{'searchType': 'departure', 'dataType': 'onTimetable', 'SerializeData': 'VkV4QaECp|rJAsMCpgE0PWIDpgE0PWEEkcIBQwAAAAKmATQ9YQPJAQECAQMBBAEHAQgBCgIPQv9_EKX_9wWUwQKlWHDBAqVZLMECpVplwQKlVvgGkcMBAQIBA8cBpZlaAhEDFAUDBkUyMTYwRgcDCAIHkcYBpgE0PRoDpQVcBKUFZAUABgIIAAiRxAQBBQEHpF4IAQmRwQMBC5HBAwEPkcYBkgABApHDAQACAAMAA5HDAQACAAMABJEABZEABpEA--T3221233232319:F332112212000:A23121141:--308528108e0e23ad8d7496e79ea39a302a9497a4--1--1--1--192', 
+			'Price': [	{'kind': 'ChargeSummary', 'Oneway': '0', 'Round': '0'}, 
+						{'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Charge', 'index': '1', 'selected': 'true', 'Name': '自由席', 'Type': 'Free', 'Oneway': '0', 'RevisionStatus': 'latest', 'Round': '0'}, 
+						{'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Charge', 'index': '2', 'selected': 'false', 'Name': 'グリーン(事前購入時)', 'Type': 'Green', 'Oneway': '780', 'RevisionStatus': 'latest', 'Round': '1560'}, 
+						{'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Charge', 'index': '3', 'selected': 'false', 'Name': 'グリーン(車内購入時)', 'Type': 'GreenInCar', 'Oneway': '1040', 'RevisionStatus': 'latest', 'Round': '2080'}, 
+						{'kind': 'FareSummary', 'Oneway': '160', 'Round': '320'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Fare', 'index': '1', 'selected': 'true', 'Type': 'Fare', 'Oneway': '160', 'RevisionStatus': 'latest', 'Round': '320'}, 
+                        {'kind': 'Teiki1Summary', 'Oneway': '4940'}, 
+						{'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Teiki1', 'index': '1', 'vehicleIndex': '1', 'selected': 'true', 'Type': 'Teiki1', 'Oneway': '4940', 'RevisionStatus': 'latest'}, 
+						{'kind': 'Teiki3Summary', 'Oneway': '14090'}, 
+						{'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Teiki3', 'index': '1', 'vehicleIndex': '1', 'selected': 'true', 'Type': 'Teiki3', 'Oneway': '14090', 'RevisionStatus': 'latest'}, 
+						{'kind': 'Teiki6Summary', 'Oneway': '23710'}, 
+						{'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Teiki6', 'index': '1', 'vehicleIndex': '1', 'selected': 'true', 'Type': 'Teiki6', 'Oneway': '23710', 'RevisionStatus': 'latest'}], 
+            'Teiki': {'SerializeData': 'VkV4QaECp8zHAQEDpgE0PRoEksEBpVhwwQGlWSwFkcMBAQOkXgSlWSwHkcUBpVhwAqVZLAMABAAFAAgBCgE*--5e5073709ff979571340e4ff0dfa7cfd5d957f0e--1--62', 'DisplayRoute': '錦糸町--ＪＲ総武線快速--東京'}, 
+			'PassStatus': [	{'teiki3Index': '1', 'teiki6Index': '1', 'kind': 'vehicle', 'selected': 'true', 'teiki1Index': '1', 'Name': '普通', 'Type': 'Normal'}, 
+							{'teiki3Index': '1', 'teiki6Index': '1', 'kind': 'vehicle', 'selected': 'false', 'teiki1Index': '1', 'Name': 'グリーン', 'Type': 'Green'}], 
+		    'Route': {'timeOther': '0', 'timeOnBoard': '8', 'exhaustCO2': '96', 'exhaustCO2atPassengerCar': '676', 'distance': '48', 'timeWalk': '0', 'transferCount': '0', 'Line': {'stopStationCount': '2', 'teiki3Index': '1', 'chargeIndex': '1', 'teiki6Index': '1', 'timeOnBoard': '8', 'track': 'railway', 'exhaustCO2': '96', 'fareIndex': '1', 'exhaustCO2atPassengerCar': '676', 'distance': '48', 'trainID': '2160F', 'teiki1Index': '1', 'Name': 'ＪＲ総武線快速・久里浜行', 'Type': 'train', 'ArrivalState': {'no': '総武1', 'Type': 'normal', 'Datetime': {'text': '2020-07-30T23:00:00+09:00', 'operation': 'today'}}, 'Destination': '久里浜', 'TimeReliability': 'onTimetable', 'DepartureState': {'no': '3', 'Type': 'normal', 'Datetime': {'text': '2020-07-30T22:52:00+09:00', 'operation': 'today'}}, 'LineSymbol': {'code': '2', 'Name': 'JO'}, 'Color': '019033196'}, 
+                'Point': [  {'Station': {'code': '22640', 'Name': '錦糸町', 'Type': 'train', 'Yomi': 'きんしちょう'}, 'Prefecture': {'code': '13', 'Name': '東京都'}, 'GeoPoint': {'longi': '139.49.1.79', 'lati': '35.41.35.50', 'longi_d': '139.817166', 'gcs': 'tokyo', 'lati_d': '35.693194'}}, 
+                            {'Station': {'code': '22828', 'Name': '東京', 'Type': 'train', 'Yomi': 'とうきょう'}, 'Prefecture': {'code': '13', 'Name': '東京都'}, 'GeoPoint': {'longi': '139.46.13.59', 'lati': '35.40.41.9', 'longi_d': '139.770444', 'gcs': 'tokyo', 'lati_d': '35.678083'}}
+                        ]
+            }
+        }, {'searchType': 'departure', 'dataType': 'onTimetable', 'SerializeData': 'VkV4QaECp6vIAsMCpgE0PWIDpgE0PWEEkcIBQwAAAAKmATQ9YQPJAQECAQMBBAEHAQgBCgIPQv9_EKX_9wWXwQKlWHDBAqVX3MECpVkswQKlWcrBAqVXWcECpVohwQKlVeMGksMBAQIBA8cBpaFKAhIDFQWkeQZFMjI4NUIHBAgDwwEBAgEDxwGldzYCFAMWBaR5BkUyMjc1QwcGCAUHksUBpgE0PRoDpQVgBKUFZgUACADGAaYBND0aAgEDpQVpBKUFbgUACAAIksUEAQUBBgEHpG4IAcYCAQQCBQEGAQekcwgCCZHCAgEDAQ|RxQGTAAECApLDAQACAAMAwwEBAgEDAQOSwwEAAgADAMMBAQIBAwEEkQAFkQA*--T3221233232319:F332112212000:A23121141:--18ae8d2a826543a34a280b39abc5fa0570873049--0--0--0--281', 
+            'Price': [  {'fareRevisionStatus': 'none', 'toLineIndex': '2', 'fromLineIndex': '1', 'kind': 'Fare', 'index': '1', 'selected': 'true', 'Type': 'Fare', 'Oneway': '160', 'RevisionStatus': 'latest', 'Round': '320'}, 
+                        {'kind': 'FareSummary', 'Oneway': '160', 'Round': '320'}, 
+                        {'kind': 'Teiki1Summary', 'Oneway': '4940'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '2', 'fromLineIndex': '1', 'kind': 'Teiki1', 'index': '1', 'selected': 'true', 'Type': 'Teiki1', 'Oneway': '4940', 'RevisionStatus': 'latest'}, 
+                        {'kind': 'Teiki3Summary', 'Oneway': '14090'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '2', 'fromLineIndex': '1', 'kind': 'Teiki3', 'index': '1', 'selected': 'true', 'Type': 'Teiki3', 'Oneway': '14090', 'RevisionStatus': 'latest'}, 
+                        {'kind': 'Teiki6Summary', 'Oneway': '23710'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '2', 'fromLineIndex': '1', 'kind': 'Teiki6', 'index': '1', 'selected': 'true', 'Type': 'Teiki6', 'Oneway': '23710', 'RevisionStatus': 'latest'}
+            ], 
+            'Teiki': {'SerializeData': 'VkV4QaECpyzHAQEDpgE0PRoEk8EBpVhwwQGlV9zBAaVZLAWSxAEBAgEDpG4EpVfcxAEBAgEDpHMEpVksB5HFAaVYcAKlWSwDAAQBBQAIAQoB--ecf32e49b6fa815beba7cf211edc728f82b44b97--1--81', 'DisplayRoute': '錦糸町--ＪＲ中央・総武線各駅停車--秋葉原--ＪＲ京浜東北線--東京'}, 
+            'Route': {'timeOther': '3', 'timeOnBoard': '11', 'exhaustCO2': '108', 'exhaustCO2atPassengerCar': '761', 'distance': '54', 'timeWalk': '0', 'transferCount': '1', 
+                'Line': [   {'stopStationCount': '2', 'teiki3Index': '1', 'teiki6Index': '1', 'timeOnBoard': '6', 'track': 'railway', 'exhaustCO2': '68', 'fareIndex': '1', 'exhaustCO2atPassengerCar': '479', 'distance': '34', 'trainID': '2285B', 'teiki1Index': '1', 'Name': 'ＪＲ総武線・三鷹行', 'Type': 'train', 'ArrivalState': {'no': '5', 'Type': 'normal', 'Datetime': {'text': '2020-07-30T23:02:00+09:00', 'operation': 'today'}}, 'Destination': '三鷹', 'TimeReliability': 'onTimetable', 'DepartureState': {'no': '1', 'Type': 'normal', 'Datetime': {'text': '2020-07-30T22:56:00+09:00', 'operation': 'today'}}, 'LineSymbol': {'code': '9', 'Name': 'JB'}, 'Color': '255222000'}, {'stopStationCount': '1', 'teiki3Index': '1', 'teiki6Index': '1', 'timeOnBoard': '5', 'track': 'railway', 'exhaustCO2': '40', 'fareIndex': '1', 'exhaustCO2atPassengerCar': '282', 'distance': '20', 'trainID': '2275C', 'teiki1Index': '1', 'Name': 'ＪＲ京浜東北・根岸線・磯子行', 'Type': 'train', 'ArrivalState': {'no': '6', 'Type': 'normal', 'Datetime': {'text': '2020-07-30T23:10:00+09:00', 'operation': 'today'}}, 'Destination': '磯子', 'TimeReliability': 'onTimetable', 'DepartureState': {'no': '4', 'Type': 'normal', 'Datetime': {'text': '2020-07-30T23:05:00+09:00', 'operation': 'today'}}, 'LineSymbol': {'code': '3', 'Name': 'JK'}, 'Color': '021175255'}
+                ], 
+                'Point': [  {'Station': {'code': '22640', 'Name': '錦糸町', 'Type': 'train', 'Yomi': 'きんしちょう'}, 'Prefecture': {'code': '13', 'Name': '東京都'}, 'GeoPoint': {'longi': '139.49.1.79', 'lati': '35.41.35.50', 'longi_d': '139.817166', 'gcs': 'tokyo', 'lati_d': '35.693194'}}, 
+                            {'Station': {'code': '22492', 'Name': '秋葉原', 'Type': 'train', 'Yomi': 'あきはばら'}, 'Prefecture': {'code': '13', 'Name': '東京都'}, 'GeoPoint': {'longi': '139.46.34.69', 'lati': '35.41.43.9', 'longi_d': '139.776305', 'gcs': 'tokyo', 'lati_d': '35.695305'}}, 
+                            {'Station': {'code': '22828', 'Name': '東京', 'Type': 'train', 'Yomi': 'とうきょう'}, 'Prefecture': {'code': '13', 'Name': '東京都'}, 'GeoPoint': {'longi': '139.46.13.59', 'lati': '35.40.41.9', 'longi_d': '139.770444', 'gcs': 'tokyo', 'lati_d': '35.678083'}}
+                ]
+            }
+            }, 
+            {'searchType': 'departure', 'dataType': 'onTimetable', 'SerializeData': 'VkV4QaECpwXJAsMCpgE0PWIDpgE0PWEEkcIBQwAAAAKmATQ9YQPJAQECAQMBBAEHAQgBCgIPQv9_EKX_9wWTwQKlWHDBAqVZLMECpVdZBpHDAQECAQPHAaWGZgIHAwoFAwZFMjI1OEYHAggBB5HGAaYBND0aA6UFZwSlBW8FAAYCCAAIkcQEAQUBB6ReCAEJkcEDAQuRwQMBD5HGAZIAAQKRwwEAAgADAAORwwEAAgADAASRAAWRAAaRAA**--T3221233232319:F332112212000:A23121141:--f332193e24f99168792ef45be9bd9e5f71aea2bb--1--1--1--187', 
+            'Price': [  {'kind': 'ChargeSummary', 'Oneway': '0', 'Round': '0'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Charge', 'index': '1', 'selected': 'true', 'Name': '自由席', 'Type': 'Free', 'Oneway': '0', 'RevisionStatus': 'latest', 'Round': '0'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Charge', 'index': '2', 'selected': 'false', 'Name': 'グリーン(事前購入時)', 'Type': 'Green', 'Oneway': '780', 'RevisionStatus': 'latest', 'Round': '1560'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Charge', 'index': '3', 'selected': 'false', 'Name': 'グリーン(車内購入時)', 'Type': 'GreenInCar', 'Oneway': '1040', 'RevisionStatus': 'latest', 'Round': '2080'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Fare', 'index': '1', 'selected': 'true', 'Type': 'Fare', 'Oneway': '160', 'RevisionStatus': 'latest', 'Round': '320'}, 
+                        {'kind': 'FareSummary', 'Oneway': '160', 'Round': '320'}, 
+                        {'kind': 'Teiki1Summary', 'Oneway': '4940'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Teiki1', 'index': '1', 'vehicleIndex': '1', 'selected': 'true', 'Type': 'Teiki1', 'Oneway': '4940', 'RevisionStatus': 'latest'}, 
+                        {'kind': 'Teiki3Summary', 'Oneway': '14090'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '1', 'fromLineIndex': '1', 'kind': 'Teiki3', 'index': '1', 'vehicleIndex': '1', 'selected': 'true', 'Type': 'Teiki3', 'Oneway': '14090', 'RevisionStatus': 'latest'}, 
+                        {'kind': 'Teiki6Summary', 'Oneway': '23710'}, 
+                        {'fareRevisionStatus': 'none', 'toLineIndex': '1', '
